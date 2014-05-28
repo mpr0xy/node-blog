@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git://github.com/semu/node-blog.git"
   },
+  "scripts": {
+        "start": "node app.js"
+  },
   "engines": {
     "node": ">= 0.4.10"
   },

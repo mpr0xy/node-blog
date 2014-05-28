@@ -9,7 +9,7 @@ var config = JSON.parse(require('fs').readFileSync(__dirname + '/config.json','u
  * Set default category and set default URL
  **/
 mdb.setDefault('category', 'General');
-mdb.setDefault('url', 'http://' + config.host + (config.port == '80' ? '' : ':' + config.port));
+mdb.setDefault('url', 'http://' + config.host);
 
 /**
  * Set basic variables passed to jade template
